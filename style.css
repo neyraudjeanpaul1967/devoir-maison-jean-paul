@@ -1,0 +1,155 @@
+:root {
+    --couleur-font-claire:#808080 ;
+    --couleur-font-fonce: rgb(0, 0, 0);
+    --couleur-font-gris:#404040;
+    --couleur-font-orange:#D94141;
+    --couleur-font-jaune-foncer:#F28705;
+    --couleur-font-jaune-claire:#F2A007;
+    --couleur-font-blanc:white;
+}
+
+@font-face {
+    font-family: 'Liberation sans';
+    src: url('./fonts/LiberationSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation sans';
+    src: url('./fonts/LiberationSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Liberation sans',sans-serif;
+    
+}
+
+header {
+    background-image:url("./images/background.jpg") ;
+    
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    font-size: 15px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+    ;  
+}
+
+main {
+    background-color: var(--couleur-font-gris);
+}
+
+p1 {
+    background-color: var(--couleur-font-blanc);
+}
+
+.button {
+    background-color:black;
+    color: white;
+
+}
+
+.div1 {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.margin {
+    margin: 2rem;
+}
+
+
+.margin1 {
+    background-color: var(--couleur-font-claire);
+    margin: 0.8rem; 
+}
+
+.pad {
+    p
+    background-color: var(--couleur-font-gris);
+}
+
+
+.img2 {
+   width: 90%;
+   height: 90%;
+}
+
+.div1 span {
+    color: #d38e0e;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+     gap: 50px;
+     padding: 30px;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    
+     padding: 30px;
+     flex-direction: column; 
+}
+
+.div4 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.img{
+    width: 100%;
+    
+}
+
+.section {
+    background-color:var(--couleur-font-claire);
+
+}
+
+.pad2 {
+    padding: none;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
