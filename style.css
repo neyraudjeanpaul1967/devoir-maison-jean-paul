@@ -3,7 +3,7 @@
     --couleur-font-fonce: rgb(0, 0, 0);
     --couleur-font-gris:#404040;
     --couleur-font-orange:#D94141;
-    --couleur-font-jaune-foncer:#F28705;
+    --couleur-font-jaune-foncer:a#F28705;
     --couleur-font-jaune-claire:#F2A007;
     --couleur-font-blanc:white;
 }
@@ -31,6 +31,7 @@
 
 body {
     font-family: 'Liberation sans',sans-serif;
+    background-color: var(--couleur-font-gris);
     
 }
 
@@ -59,8 +60,17 @@ main {
     background-color: var(--couleur-font-gris);
 }
 
-p1 {
-    background-color: var(--couleur-font-blanc);
+span {
+    color: var(--couleur-font-jaune-claire);
+}
+
+
+
+
+
+footer {
+    background-color: var(--couleur-font-gris);
+    padding-top: 2rem;
 }
 
 .button {
@@ -87,7 +97,7 @@ p1 {
 }
 
 .pad {
-    p
+    
     background-color: var(--couleur-font-gris);
 }
 
@@ -104,45 +114,101 @@ p1 {
 .div2 {
     display: flex;
     align-items: center;
-     gap: 50px;
-     padding: 30px;
+    justify-content: space-between;
+    background-color: var(--couleur-font-blanc); 
+    border-radius: 10px;
+     
 }
 
 .div3 {
     display: flex;
     align-items: center;
-    
-     padding: 30px;
-     flex-direction: column; 
+     gap: 30px;
+     text-align: justify;
+     justify-content: space-evenly;
 }
 
-.div4 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    
-}
 
 .img{
     width: 100%;
+    margin-bottom: -0.3rem;
     
 }
 
-.section {
-    background-color:var(--couleur-font-claire);
-
-}
-
-.pad2 {
-    padding: none;
-}
-
-.position {
+.container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.aligne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30%;
+}
+
+.aligne1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.fin {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    margin: 1rem 0;
+   
+    
 }
+
+.ab {
+    position: absolute;
+    right: -70px;
+}
+
+.re {
+    position: relative;
+    width: 80%;
+}
+
+.ab1 {
+    position: absolute;
+    top: -60px;
+}
+
+.re1 {
+    position: relative;
+    width: 80%;
+}
+
+.tex {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+    
 
 
 
